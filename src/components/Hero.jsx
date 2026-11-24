@@ -1,4 +1,5 @@
 import Cabecalho from "./Cabecalho";
+import BotaoLembrete from "./BotaoLembrete";
 import { evento } from "./data/evento";
 
 function Hero() {
@@ -18,16 +19,17 @@ function Hero() {
         <p className="mt-2 text-sm opacity-70">
           {evento.data} • {evento.horario}
         </p>
-        <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
+        <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
           <a
             href="#inscricao"
-            className="rounded-xl bg-verde px-8 py-3 font-bold text-grafite"
+            className="flex h-12 w-full items-center justify-center rounded-xl bg-verde px-8 font-bold text-grafite sm:w-52"
           >
             Quero participar
           </a>
+          <BotaoLembrete />
           <a
             href="#programacao"
-            className="rounded-xl border border-white/30 px-8 py-3 font-bold"
+            className="flex h-12 w-full items-center justify-center rounded-xl border border-white/30 px-8 font-bold sm:w-52"
           >
             Ver programação
           </a>
