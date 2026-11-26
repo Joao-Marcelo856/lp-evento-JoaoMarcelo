@@ -1,6 +1,6 @@
 export const evento = {
     nome: 'GameJam OC 48h',
-    slogan: '48 horas, um tema surpresa e o seu primeiro jogo publicado.',
+    slogan: 'Crie um jogo do zero em 48 horas e publique o seu primeiro título.',
     data: '6 a 8 de agosto de 2027',
     horario: 'de sexta, 19h, a domingo, 19h',
     local: 'Espaço Maker Municipal — Osvaldo Cruz/SP',
